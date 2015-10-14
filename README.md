@@ -8,13 +8,18 @@ This repository is for the reporting of Map-data-issues regarding OSM & OTP.
 
 Otp has a debug layer which can help you identify issues and anaylze logic behind trip planning
 To enable debug layers:
+
 1. Go to planner.plannerstack.com or a trip url.
+
 2. At the end of the url ad: /?debug_layers=true
-3. At the top right corner multiple layers can now be selected:https://cloud.githubusercontent.com/assets/10044515/10483652/c56e8986-7280-11e5-8546-70e96691c985.png
+
+3. At the top right corner multiple layers can now be selected: [example](https://cloud.githubusercontent.com/assets/10044515/10483652/c56e8986-7280-11e5-8546-70e96691c985.png)
+4. 
 4. you can select: 
-    a) Wheelchair acces: Every path or place which is wheelchair accesible
-    b) Bike safety: All paths where travel by bike is possible
-    c) Travel permissions: Shows all the path accesible by foot which might not be on the map. For example how to get around a train station etc.
+   
+  a) Wheelchair acces: Every path or place which is wheelchair accesible
+  b) Bike safety: All paths where travel by bike is possible
+  c) Travel permissions: Shows all the path accesible by foot which might not be on the map. For example how to get around a train station etc.
 
 #OpenStreetMap
 OpenStreetMap is an openly licensed map of the world being created by volunteers and is editable by everyone who wants to contribute
