@@ -14,8 +14,8 @@ This repository is for the reporting of Map-data-issues regarding OSM & OTP.
 	- [OpenTripPlanner debugging](#opentripplanner-debugging)
 	- [Short about interpretation of OSM in OTP](#short-about-interpretation-of-osm-in-otp)
 	- [OpenStreetMap](#openstreetmap)
-	- [How long does it take before my OSM changes result in awesome new trips in OTP?](#how-long-does-it-take-before-my-osm-changes-result-in-awesome-new-trips-in-otp)
 - [FAQ](#faq)
+	- [How long does it take before my OSM changes result in awesome new trips in OTP?](#how-long-does-it-take-before-my-osm-changes-result-in-awesome-new-trips-in-otp)
 
 <!-- /MarkdownTOC -->
 
@@ -178,12 +178,10 @@ Navigation app that allows you to add, delete or change POIs.
 - Editing on a mapview, not a dataview. So you might add things that are there but not rendered.
 - Usually no sat pic background, so POIs might be some distance from real location.
 
+
+# FAQ
+
 ## How long does it take before my OSM changes result in awesome new trips in OTP?
 
 * We build OTP based on the latest OSM file of the Netherlands in http://download.geofabrik.de/europe/
 * If that's updated, OTP will be updated the next day
-
-
-# FAQ
-
-`coming`
