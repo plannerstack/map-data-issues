@@ -28,17 +28,17 @@ b) should look like: http://demo.planner.plannerstack.com/?module=planner&fromPl
 
 # Empty Template
 <pre> 
-### 1. Description: 
+## 1. Description: 
 
 
-### 2. Impact
+## 2. Impact
 
 
-### 3. Image
+## 3. Image
 
 
-### 4. Reproduction
+## 4. Reproduction
 
 
-### 5. Example URL 
+## 5. Example URL 
 </pre>
