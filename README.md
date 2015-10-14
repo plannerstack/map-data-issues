@@ -6,6 +6,8 @@ This repository is for the reporting of Map-data-issues regarding OSM & OTP.
 * You can check out the status of the [different issues](https://github.com/plannerstack/map-data-issues/issues)
 * You can help along fixing issues by editting OSM, for that we have some tips and tricks below!
 
+# Table of Content
+
 <!-- MarkdownTOC -->
 
 - [Tips & Tricks](#tips--tricks)
