@@ -1,8 +1,25 @@
 # map-data-issues
 
-This repository is for the reporting of Map-data-issues regarding OSM & OTP.
+This repository is for the reporting of Map-data-issues regarding OSM & OTP. 
 
-#OpenTripPlanner 
+* You can report issues based on our [issue template](https://github.com/plannerstack/map-data-issues/blob/master/Issue%20template.md)
+* You can check out the status of the [different issues](https://github.com/plannerstack/map-data-issues/issues)
+* You can help along fixing issues by editting OSM, for that we have some tips and tricks below!
+
+<!-- MarkdownTOC -->
+
+- [Tips & Tricks](#tips--tricks)
+	- [OpenTripPlanner debugging](#opentripplanner-debugging)
+	- [Short about interpretation of OSM in OTP](#short-about-interpretation-of-osm-in-otp)
+	- [OpenStreetMap](#openstreetmap)
+	- [How long does it take before my OSM changes result in awesome new trips in OTP?](#how-long-does-it-take-before-my-osm-changes-result-in-awesome-new-trips-in-otp)
+- [FAQ](#faq)
+
+<!-- /MarkdownTOC -->
+
+# Tips & Tricks
+
+## OpenTripPlanner debugging
 
 **DEBUG layer**
 
@@ -23,18 +40,23 @@ To enable debug layers:
 
   c) Travel permissions: Shows all the path accesible by foot which might not be on the map. For example how to get around a train station etc.
 
-#OpenStreetMap
+## Short about interpretation of OSM in OTP
+
+`@todo`
+
+
+## OpenStreetMap
 OpenStreetMap is an openly licensed map of the world being created by volunteers and is editable by everyone who wants to contribute
 
 **How to edit OSM**
 
 Everybody can edit Openstreetmap. Following is a list of editors which can help you edit OSM data. The first one(ID) is the one currently used by default on [openstreetmap](https://www.openstreetmap.org)
 
-##List of OSM editors
+### List of OSM editors
 
-###Online editors
+#### Online editors
 
-####iD
+##### iD
 
 **Summary**
 
@@ -58,7 +80,7 @@ Zooming and panning prompts a map fetch (not as fluid)
 - It is not possible to work offline
 - Does not support all browsers (I.E. in particular is not supported)
 
-####Potlatch 2
+##### Potlatch 2
 
 **Summary**
 
@@ -78,9 +100,9 @@ Flash online editor.
 - does not work offline
 
 
-###Desktop and offline
+#### Desktop and offline
 
-####JOSM
+##### JOSM
 
 **Summary**
 
@@ -103,7 +125,7 @@ JOSM offers a large set of features and useful tools for a wide range of editing
 - It requires Java 7+ to work.
 - No help text when editing tags
 
-####Merkaartor
+##### Merkaartor
 
 **Summary**
 
@@ -122,9 +144,9 @@ Merkaartor is a small editor for OpenStreetMap available under the GNU General P
 - Albeit under development (and it is not bad at all) it is very memory hungry and can freeze the machine while page-swapping (lots of disk activity)
 - Crashes on large data sets. Developer community is moribund.
 
-###Mobile
+#### Mobile
 
-####Vespucci
+##### Vespucci
 
 **Summary**
 
@@ -137,7 +159,7 @@ Vespucci is the first OpenStreetMap-Editor for Android and has been available an
 - Create/edit Nodes, Ways, Tags, and Relations, with all the usual geometry related operations.
 - built-in support for Imagery Offset Database
 
-####OsmAnd
+##### OsmAnd
 
 **Summary**
 
@@ -154,15 +176,12 @@ Navigation app that allows you to add, delete or change POIs.
 - Editing on a mapview, not a dataview. So you might add things that are there but not rendered.
 - Usually no sat pic background, so POIs might be some distance from real location.
 
-##When is OSM updated
+## How long does it take before my OSM changes result in awesome new trips in OTP?
 
-The various map layers are updated at different frequencies.
-- The "standard" map is updated very frequently; the exact time depends on how often the area is viewed by users
-- The "cycle" map is updated every few days
-- The "transport" map is updated every day or two
-- The "MapQuest Open" map update is unclear how often this occurs at the moment
-- The "Humanitarian" map update is unclear how often this occurs at the moment
+* We build OTP based on the latest OSM file of the Netherlands in http://download.geofabrik.de/europe/
+* If that's updated, OTP will be updated the next day
 
-##Short about interpretation of OSM in OTP*
 
-#FAQ
+# FAQ
+
+`coming`
