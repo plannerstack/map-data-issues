@@ -34,7 +34,7 @@ Everybody can edit Openstreetmap. Following is a list of editors which can help 
 Online editor.
 
 **Pros**
-- It is currently the pre-set editor for www.openstreetmap.org's 'Edit' tab, and runs in your web browser.
+- It is currently the pre-set editor for [Openstreetmap's](www.openstreetmap.org) 'Edit' tab, and runs in your web browser.
 - It has a 'walkthrough' feature and has been designed to be an easy introduction for brand new OSM contributors
 - Development is active and ongoing, with a lot of attention paid to user experience.
 Unlike Potlatch, this doesn't require a flash plugin. It's all JavaScript and should work in most modern web browsers.
