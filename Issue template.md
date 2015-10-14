@@ -2,7 +2,7 @@ This document is a template for the reporting of issues regarding Map data.
 
 See Readme for instructions about OSM, OTP & debug layers.
 
-#Template
+# Template (Filled in)
 
 **1. Description** (What is the issue?): 
 Stoplinks between platforms are missing. 
@@ -26,3 +26,22 @@ a) click on *link to url* at the bottom of one of the advised trips
 
 b) should look like: http://demo.planner.plannerstack.com/?module=planner&fromPlace=52.692576696575685%2C6.198263168334961&toPlace=52.33586352768354%2C6.11363410949707&time=1%3A30pm&date=10-14-2015&mode=TRANSIT%2CWALK&maxWalkDistance=750&arriveBy=false&wheelchair=false&locale=en&itinIndex=0
 
+# Empty Template
+
+<pre>
+
+## 1. Description: 
+
+
+## 2. Impact
+
+
+## 3. Image
+
+
+## 4. Reproduction
+
+
+## 5. Example URL
+
+<pre/>
