@@ -19,6 +19,7 @@ To enable debug layers:
 OpenStreetMap is an openly licensed map of the world being created by volunteers and is editable by everyone who wants to contribute
 
 **How to edit OSM**
+
 Everybody can edit Openstreetmap. Following is a list of editors which can help you edit OSM data. The first one(ID) is the one currently used by default on openstreetmap.org
 
 ##List of OSM editors
