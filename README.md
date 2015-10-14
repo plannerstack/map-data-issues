@@ -28,7 +28,7 @@ OpenStreetMap is an openly licensed map of the world being created by volunteers
 
 **How to edit OSM**
 
-Everybody can edit Openstreetmap. Following is a list of editors which can help you edit OSM data. The first one(ID) is the one currently used by default on openstreetmap.org
+Everybody can edit Openstreetmap. Following is a list of editors which can help you edit OSM data. The first one(ID) is the one currently used by default on [openstreetmap](https://www.openstreetmap.org)
 
 ##List of OSM editors
 
