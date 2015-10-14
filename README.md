@@ -5,6 +5,7 @@ This repository is for the reporting of Map-data-issues regarding OSM & OTP.
 #OpenTripPlanner 
 
 **DEBUG layer**
+
 Otp has a debug layer which can help you identify issues and anaylze logic behind trip planning
 To enable debug layers:
 1. Go to planner.plannerstack.com or a trip url.
@@ -29,6 +30,7 @@ Everybody can edit Openstreetmap. Following is a list of editors which can help 
 ####iD
 
 **Summary**
+
 Online editor.
 
 **Pros**
@@ -52,6 +54,7 @@ Zooming and panning prompts a map fetch (not as fluid)
 ####Potlatch 2
 
 **Summary**
+
 Flash online editor.
 
 **Pros**  
@@ -73,6 +76,7 @@ Flash online editor.
 ####JOSM
 
 **Summary**
+
 JOSM offers a large set of features and useful tools for a wide range of editing styles: It will either read in GPX tracks from your hard disk, or download them from OSM. Aerial imagery can easily be downloaded as a background for tracing. JOSM also supports photo mapping and audio mapping. Once you have completed your edits, you can upload them to OSM.
 
 **Pros**
@@ -95,6 +99,7 @@ JOSM offers a large set of features and useful tools for a wide range of editing
 ####Merkaartor
 
 **Summary**
+
 Merkaartor is a small editor for OpenStreetMap available under the GNU General Public License and developed using the Qt toolkit.
 
 **Pros**
@@ -115,6 +120,7 @@ Merkaartor is a small editor for OpenStreetMap available under the GNU General P
 ####Vespucci
 
 **Summary**
+
 Vespucci is the first OpenStreetMap-Editor for Android and has been available and developed since 2009.
 
 **Pros**
@@ -127,6 +133,7 @@ Vespucci is the first OpenStreetMap-Editor for Android and has been available an
 ####OsmAnd
 
 **Summary**
+
 Navigation app that allows you to add, delete or change POIs.
 
 **Pros**
