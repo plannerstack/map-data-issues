@@ -11,7 +11,7 @@ This repository is for the reporting of Map-data-issues regarding OSM & OTP. Tog
 
 <!-- MarkdownTOC -->
 
-- [How to create routes and find issues using OTP] (#How to create routes and find issues using OTP)
+- [How to create routes and find issues using OTP] (#How-to-create-routes-and-find-issues-using-OTP)
 - [Different kinds of issues] (#Different kinds of issues)
 - [Tips & Tricks](#tips--tricks)
 	- [OpenTripPlanner debugging](#opentripplanner-debugging)
