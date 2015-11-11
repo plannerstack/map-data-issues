@@ -41,13 +41,13 @@ Now we know how to create a trip and how to recognize an issue. Lets see which o
 
 
 # Different kinds of issues
-	- Missing intersections at Hilversum
-	- GTFS shape lines missing in Heerlen
-	- No public transport routes in Winterswijk
-	- Extended walking routes in Geleen-Lutterade
-	- Maximum walking distance settings in Rotterdam
-	- Wrong exits in Susteren
-	- Road connections missing in Nijmegen
+* Missing intersections at Hilversum
+* GTFS shape lines missing in Heerlen
+* No public transport routes in Winterswijk
+* Extended walking routes in Geleen-Lutterade
+* Maximum walking distance settings in Rotterdam
+* Wrong exits in Susteren
+* Road connections missing in Nijmegen
 
 ## Missing intersections at Hilversum
 
