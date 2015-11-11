@@ -47,6 +47,7 @@ Now we know how to create a trip and how to recognize an issue. Lets see which o
 * Maximum walking distance settings in Rotterdam
 * Wrong exits in Susteren
 * Road connections missing in Nijmegen
+
 Some of the issues might look the same, however they are slightly different and all have different impact on the outcome in OTP or OSM. 
 
 ## Missing intersections at Hilversum
