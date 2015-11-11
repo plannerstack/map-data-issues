@@ -50,6 +50,10 @@ Now we know how to create a trip and how to recognize an issue. Lets see which o
 * Road connections missing in Nijmegen
 
 ## Missing intersections at Hilversum
+In the image below the suggested route at Hilversum Central Station is longer than needed because there is a connection missing in the crossing paths. When a trip is planned, OTP or OSM calculated these paths as two crossing routes that might be separated from each other, for example by a bridge. However, there is no bridge and they actually do cross on the same level. An intersection to connect both paths is missing (black dot) in OSM. Until now this route suggests you walk an extra loop, because of this missing intersection.
+![hilversum walking route](https://cloud.githubusercontent.com/assets/15247075/10728071/0b943552-7bdf-11e5-8b45-6996c20686c6.png)
+To make it more clear the issue that occurred in figure 4 is explained further, making you eventually walk to the southwest of the train station. The starting point is the end of the long red line: 
+*Looking at the image above exit at the right side of the yellow lines. Instead of going left (northwest) it makes you walk right (southeast) towards the first intersection (very short walk). From there you go left (northeast) to the second intersection. There you should turn to the left again going in a southeastern direction, crossing the railroad track. Right before you cross the first railroad track, a brighter green-blue line crosses the darker one you are walking on. Where it crosses, there is no intersection (black dot) drawn. Because there is no intersection drawn, it looks like you cannot make a left turn but only continue walking in a northwest direction. That is why OSM and OTP make you walk the extra loop*. 
 
 
 # Tips & Tricks
