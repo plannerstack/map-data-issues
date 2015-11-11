@@ -4,7 +4,7 @@ This repository is for the reporting of Map-data-issues regarding OSM & OTP. Tog
 
 * You can report issues based on our [issue template](https://github.com/plannerstack/map-data-issues/blob/master/Issue%20template.md)
 * You can check out the status of the [different issues](https://github.com/plannerstack/map-data-issues/issues)
-* Add tags to issues to bundle the types of issues
+* You can add tags to issues to bundle the types of issues
 * You can help along fixing issues by editting OSM, for that we have some tips and tricks below!
 
 # Table of Content
