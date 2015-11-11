@@ -12,7 +12,7 @@ This repository is for the reporting of Map-data-issues regarding OSM & OTP. Tog
 <!-- MarkdownTOC -->
 
 - [How to create routes and find issues using OTP] (#How-to-create-routes-and-find-issues-using-OTP)
-- [Different kinds of issues] (#Different kinds of issues)
+- [Different kinds of issues] (#Different-kinds-of-issues)
 - [Tips & Tricks](#tips--tricks)
 	- [OpenTripPlanner debugging](#opentripplanner-debugging)
 	- [Short about interpretation of OSM in OTP](#short-about-interpretation-of-osm-in-otp)
@@ -41,7 +41,16 @@ Now we know how to create a trip and how to recognize an issue. Lets see which o
 
 
 # Different kinds of issues
-@todo
+•	Missing intersections at Hilversum
+•	GTFS shape lines missing in Heerlen
+•	No public transport routes in Winterswijk
+•	Extended walking routes in Geleen-Lutterade
+•	Maximum walking distance settings in Rotterdam
+•	Wrong exits in Susteren
+•	Road connections missing in Nijmegen
+
+## Missing intersections at Hilversum
+
 
 # Tips & Tricks
 
