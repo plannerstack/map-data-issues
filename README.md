@@ -23,12 +23,21 @@ This repository is for the reporting of Map-data-issues regarding OSM & OTP. Tog
 <!-- /MarkdownTOC -->
 
 # How to create routes and find issues using OTP
-@todo
-Issues can be found using different sources. First, start by making a trip in OTP. So far we mainly focused on train routes in The Netherlands. To start you set the starting point by clicking the right mouse button and choose: Set as Start Location (figure 1). Then go in either direction along the railroad and set the End Location close to another train station. 
+Errors occur in the maps using OpenTripPlanner (OTP) or OpenStreetMap (OSM). Issues that occur are for example walking routes, missing connections, positioning of stations, GTFS-lines and missing exits. In this document trip planning is explained, how to find which issues and already some tips on how they could possibly be solved. But before explaining the different issues first is explained how to actually find issues using OpenTripPlanner.
 
+## Create a trip and find the Stop link issue
+Issues can be found using different sources. First, start by making a trip in OTP. So far we mainly focused on train routes in The Netherlands. To start you set the starting point by clicking the right mouse button and choose: Set as Start Location (figure 1). Then go in either direction along the railroad and set the End Location close to another train station. 
 
 ![schermafbeelding 2015-11-11 om 12 19 35](https://cloud.githubusercontent.com/assets/15247075/11089986/8d9ac0d4-886e-11e5-93d5-b0a8ce9701f3.png)
 
+OTP then calculates a route between the two set locations. ![weesp-almere](https://cloud.githubusercontent.com/assets/15247075/11089940/43955c10-886e-11e5-941e-64361c5ba063.png)
+
+Zoom in on one of the stations to have a better look. Most of the times nothing strange appears, however sometimes one can see that something must be incorrect. For example in figure 3 where a trip is created to a destination close to the station. When having a good closer look at the image a long walk (grey line) is supposed to be made to reach the End Location. However, the icon of the train station is next to the red flag of the End Location and under the red line (GTFS train line). The assumption arises that something has to be incorrect in this situation. 
+
+![almere poort](https://cloud.githubusercontent.com/assets/15247075/11089936/43914f6c-886e-11e5-96c5-68e95a88de20.png)
+The problem that occurred here is that the red line from the train probably has a stop link in the incorrect place. The suggestion already occurred when looking at the map, however a double check is done through Google Streetview. The result of this issue is an unnecessary 700-meter walk from an impossible place to leave the train and platform. In order to change this the stop link should be placed close to the train station where the platforms are. 
+
+Now we know how to create a trip and how to recognize an issue. Lets see which other issues can occur when creating train routes in OTP besides the station positioning issue that occurred at Almere Poort.
 
 
 # Different kinds of issues
