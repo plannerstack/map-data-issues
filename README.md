@@ -24,7 +24,6 @@ This repository is for the reporting of Map-data-issues regarding OSM & OTP. Tog
 
 # How to create routes and find issues using OTP
 
-![schermafbeelding 2015-11-09 om 13 20 00](https://cloud.githubusercontent.com/assets/15247075/11033675/654e691c-86e5-11e5-8031-3cd9481ff414.png)
 
 
 # Tips & Tricks
