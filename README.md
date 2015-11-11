@@ -40,13 +40,13 @@ The problem that occurred here is that the red line from the train probably has 
 Now we know how to create a trip and how to recognize an issue. Lets see which other issues can occur when creating train routes in OTP besides the station positioning issue that occurred at Almere Poort.
 
 # Different kinds of issues
-* Missing intersections at Hilversum
-* GTFS shape lines missing in Heerlen
-* No public transport routes in Winterswijk
-* Extended walking routes in Geleen-Lutterade
-* Maximum walking distance settings in Rotterdam
-* Wrong exits in Susteren
-* Road connections missing in Nijmegen
+* [Missing intersections at Hilversum](#missing-intersections-at-hilversum)
+* [GTFS shape lines missing in Heerlen](#gtfs-shape-lines-missing-in-heerlen)
+* [No public transport routes in Winterswijk](#no-public-transport-routes-in-winterswijk)
+* [Extended walking routes in Geleen-Lutterade](#extended-walking-routes-in-geleen-lutterade)
+* [Maximum walking distance settings in Rotterdam](#maximum-walking-distance-settings-in-rotterdam)
+* [Wrong exits in Susteren](#wrong-exits-in-susteren)
+* [Road connections missing in Nijmegen](#road-connections-missing-in-nijmegen)
 
 Some of the issues might look the same, however they are slightly different and all have different impact on the outcome in OTP or OSM. 
 
