@@ -24,6 +24,10 @@ This repository is for the reporting of Map-data-issues regarding OSM & OTP. Tog
 
 # How to create routes and find issues using OTP
 @todo
+Issues can be found using different sources. First, start by making a trip in OTP. So far we mainly focused on train routes in The Netherlands. To start you set the starting point by clicking the right mouse button and choose: Set as Start Location (figure 1). Then go in either direction along the railroad and set the End Location close to another train station. 
+
+
+![schermafbeelding 2015-11-11 om 12 19 35](https://cloud.githubusercontent.com/assets/15247075/11089986/8d9ac0d4-886e-11e5-93d5-b0a8ce9701f3.png)
 
 
 
