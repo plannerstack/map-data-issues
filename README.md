@@ -1,15 +1,18 @@
-# map-data-issues
+# Welcome to the map-data-issues
 
-This repository is for the reporting of Map-data-issues regarding OSM & OTP. 
+This repository is for the reporting of Map-data-issues regarding OSM & OTP. Together we build on the improvement of the data we use to travel. We created this repository to explain how we work and how you maybe can contribute to the improvements.
 
 * You can report issues based on our [issue template](https://github.com/plannerstack/map-data-issues/blob/master/Issue%20template.md)
 * You can check out the status of the [different issues](https://github.com/plannerstack/map-data-issues/issues)
+* Add tags to issues to bundle the types of issues
 * You can help along fixing issues by editting OSM, for that we have some tips and tricks below!
 
 # Table of Content
 
 <!-- MarkdownTOC -->
 
+- [How to create routes and find issues using OTP] (#How to create routes and find issues using OTP)
+- [Different kinds of issues] (#Different kinds of issues)
 - [Tips & Tricks](#tips--tricks)
 	- [OpenTripPlanner debugging](#opentripplanner-debugging)
 	- [Short about interpretation of OSM in OTP](#short-about-interpretation-of-osm-in-otp)
