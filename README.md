@@ -30,11 +30,14 @@ Issues can be found using different sources. First, start by making a trip in OT
 
 ![schermafbeelding 2015-11-11 om 12 19 35](https://cloud.githubusercontent.com/assets/15247075/11089986/8d9ac0d4-886e-11e5-93d5-b0a8ce9701f3.png)
 
-OTP then calculates a route between the two set locations. ![weesp-almere](https://cloud.githubusercontent.com/assets/15247075/11089940/43955c10-886e-11e5-941e-64361c5ba063.png)
+OTP then calculates a route between the two set locations.
+
+![weesp-almere](https://cloud.githubusercontent.com/assets/15247075/11089940/43955c10-886e-11e5-941e-64361c5ba063.png)
 
 Zoom in on one of the stations to have a better look. Most of the times nothing strange appears, however sometimes one can see that something must be incorrect. For example in figure 3 where a trip is created to a destination close to the station. When having a good closer look at the image a long walk (grey line) is supposed to be made to reach the End Location. However, the icon of the train station is next to the red flag of the End Location and under the red line (GTFS train line). The assumption arises that something has to be incorrect in this situation. 
 
 ![almere poort](https://cloud.githubusercontent.com/assets/15247075/11089936/43914f6c-886e-11e5-96c5-68e95a88de20.png)
+
 The problem that occurred here is that the red line from the train probably has a stop link in the incorrect place. The suggestion already occurred when looking at the map, however a double check is done through Google Streetview. The result of this issue is an unnecessary 700-meter walk from an impossible place to leave the train and platform. In order to change this the stop link should be placed close to the train station where the platforms are. 
 
 Now we know how to create a trip and how to recognize an issue. Lets see which other issues can occur when creating train routes in OTP besides the station positioning issue that occurred at Almere Poort.
@@ -52,12 +55,15 @@ Some of the issues might look the same, however they are slightly different and 
 
 ## Missing intersections at Hilversum
 In the image below the suggested route at Hilversum Central Station is longer than needed because there is a connection missing in the crossing paths. When a trip is planned, OTP or OSM calculated these paths as two crossing routes that might be separated from each other, for example by a bridge. However, there is no bridge and they actually do cross on the same level. An intersection to connect both paths is missing (black dot) in OSM. Until now this route suggests you walk an extra loop, because of this missing intersection.
+
 ![hilversum walking route](https://cloud.githubusercontent.com/assets/15247075/10728071/0b943552-7bdf-11e5-8b45-6996c20686c6.png)
+
 To make it more clear the issue in the image above is explained further, making you eventually walk to the southwest of the train station. The starting point is the end of the long red line: 
 *Looking at the image above exit at the right side of the yellow lines. Instead of going left (northwest) it makes you walk right (southeast) towards the first intersection (very short walk). From there you go left (northeast) to the second intersection. There you should turn to the left again going in a southeastern direction, crossing the railroad track. Right before you cross the first railroad track, a brighter green-blue line crosses the darker one you are walking on. Where it crosses, there is no intersection (black dot) drawn. Because there is no intersection drawn, it looks like you cannot make a left turn but only continue walking in a northwest direction. That is why OSM and OTP make you walk the extra loop*. 
 
 ##GTFS shape lines missing in Heerlen
 In the image below you can see a GTFS-issue. The green line is the bus going from A to B. However, in this image you can see where the green line is connecting A and B in a direct straight line, which is actually not possible. Buildings, railroads, walking areas and other objects are in between these two points, making it an impossible route. In GTFS the route should be drawn over the roads it is actually using. So when you see a line like this, it is not yet entered in the right way in GTFS. This can occur because the public transport operators are not mandatory to provide this information or if they just not provided the information.
+
 ![bus route heerlen](https://cloud.githubusercontent.com/assets/15247075/10697646/4af1fda8-79ad-11e5-9933-3feb543c379b.png)
 
 ## No public transport routes in Winterswijk
@@ -66,26 +72,36 @@ The next image shows two stations in Winterswijk. There is no connection between
 
 ## Extended walking routes in Geleen-Lutterade
 The issue here has some overlap with the missing intersection at station Hilversum and incorrect stop links (arriving at wrong side) of Almere Poort. However, there is also a walking line missing making it more difficult to reach the final destination in Geleen-Lutterade. Where the dark grey (walking route) and the light green/blue line cross, there the intersection is missing. So you have to walk all the way further to a connection that does eventually link to another path towards your final destination. However, even if the intersection was there another connection missed to make the walk shorter. Between the flag of end location and light green/blue line, there should be a walking path in the corner of the horseshoe shape and the grey line of the end location. This reduces the walk to around 100 meters instead of 600 meters as it is now. In OSM we found that one of the issues was also that pedestrians were not alloud to enter the bicycle path, which made it impossible to walk they way they were supposed to be.
+
 ![schermafbeelding 2015-11-06 om 11 53 32](https://cloud.githubusercontent.com/assets/15247075/10995474/76fff7e4-847d-11e5-843c-3345e07d3804.png)
+
 ![schermafbeelding 2015-11-06 om 11 53 21](https://cloud.githubusercontent.com/assets/15247075/10995475/7731cd3c-847d-11e5-8435-719f58a2b361.png)
 
 ## Maximum walking distance settings in Rotterdam
 The maximum walk distance has much influence on the route and travel time. When the maximum walking distance is set higher, the route can change and also the travel time can change. Lets take a look at the following example and choose a final destination at around 1600 meters from the train station. 
 
 When traveling in Rotterdam and your maximum walking distance is set at 1500meters the route is as following:
+
 ![rotterdam 2](https://cloud.githubusercontent.com/assets/15247075/11091578/2d038ec8-887c-11e5-836d-ba76d55fba49.png)
+
 In the image above you will see that the traveling person has a short bus connection and still a long walk before reaching the final destination. The time of arrival is 10:46. In the figure 9 below you will see a different route. 
+
 ![rotterdam 1](https://cloud.githubusercontent.com/assets/15247075/11091577/2d02c452-887c-11e5-9ce5-a7f2164fce92.png)
+
 The maximum walking distance in the image above is set at 2000 meters. The walk is a little longer, however this is only 100 meters extra. The time of arrival is 10:35. The route is 10 minutes shorter and no bus fare is needed so it is also cheaper. 
 
 ## Wrong exits in Susteren
 In earlier issues the missing walking connections are explained. In this image another long walking route is created, but this has nothing to do with missing intersections. However, it does occur due to a missing connection between the platform and the exit. The exit or platform is not connected to the west side of the station, which leads to an extreme walking loop. However, there is a walking crossing over the railroad tracks which makes the actually much shorter and directly. Here, the exit should be made in both directions to avoid long walking routes.
+
 ![schermafbeelding 2015-11-06 om 11 30 30](https://cloud.githubusercontent.com/assets/15247075/10995033/549ce4ee-847a-11e5-99ce-4b4113bf89b8.png)
 
 ## Road connections missing in Nijmegen
 In the image below a long walking loop is created between the exit and end location while they are next to each other. This probably occurs because the bike path and road are not connected. 
+
 ![schermafbeelding 2015-11-05 om 17 01 39](https://cloud.githubusercontent.com/assets/15247075/10973756/125724b4-83df-11e5-8652-f1e05513ff37.png)
+
 ![schermafbeelding 2015-11-05 om 17 01 31](https://cloud.githubusercontent.com/assets/15247075/10973757/127aa588-83df-11e5-8d6c-8e67f8d843d1.png)
+
 The figure here shows that the assumption above is correct. There is no connection between the bicycle path and the road. However, through Google Streetview a pedestrian crossing is seen that connects both sides. And even without a pedestrian crossing a possibility should be to cross the street anyway to reach the final destination instead of going 100 meters left, cross the street and than come back for another 100 meters.  
 
 # Tips & Tricks
