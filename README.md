@@ -65,7 +65,7 @@ For all stop linker issues, check here: [Stop link issues](https://github.com/pl
 
 ![Almere Poort](https://cloud.githubusercontent.com/assets/15247075/12755550/308bda42-c9d0-11e5-8383-7ece155c3e9e.png)
 
-When you have found some incorrect latlong's, paste them underneath the right issue. 
+When you have found some incorrect latlong's, paste them underneath the right issue. [Stop Link issues](https://github.com/plannerstack/map-data-issues/blob/master/README.md#how-to-find-gtfs-stoplinker-data-issues)
 
 # Different kinds of issues
 * [Missing intersections at Hilversum](#missing-intersections-at-hilversum)
