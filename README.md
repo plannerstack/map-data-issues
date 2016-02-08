@@ -51,7 +51,8 @@ For all stop linker issues, check here: [Stop link issues](https://github.com/pl
 3. open stops.txt
 4. Find station 
 5. Find stations latitude longitude (latlong)
-6. paste it in google
+6. paste it in google 
+![Almere Poort](https://cloud.githubusercontent.com/assets/15247075/12755550/308bda42-c9d0-11e5-8383-7ece155c3e9e.png)
 When you have found some incorrect latlong's, paste them underneath the right issue. 
 
 # Different kinds of issues
