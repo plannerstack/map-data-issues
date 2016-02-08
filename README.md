@@ -49,19 +49,19 @@ For all stop linker issues, check here: [Stop link issues](https://github.com/pl
 
 	![plannerstack data](https://cloud.githubusercontent.com/assets/15247075/12886444/7898e4fa-ce6d-11e5-9455-214f932582ef.png)
 
-2. Unzip it 
+2. Unzip the file 
 
-3. Open stops.txt
+3. Open the file: stops.txt
 
-4. Find station 
+4. Find the station 
 
 	![schermafbeelding 2016-02-08 om 14 12 03](https://cloud.githubusercontent.com/assets/15247075/12886523/46125ba0-ce6e-11e5-9450-2f1af5668837.png)
 
-5. Find stations latitude longitude (latlong)
+5. Find the stations latitude longitude (latlong)
 
 	![latlong](https://cloud.githubusercontent.com/assets/15247075/12886445/7c60fa6e-ce6d-11e5-890b-508cf6eb755e.png)
 
-6. Paste it in google 
+6. Paste it in Google Maps 
 
 	![Almere Poort](https://cloud.githubusercontent.com/assets/15247075/12755550/308bda42-c9d0-11e5-8383-7ece155c3e9e.png)
 
