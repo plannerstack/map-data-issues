@@ -12,7 +12,7 @@ This repository is for the reporting of Map-data-issues regarding OSM & OTP. Tog
 <!-- MarkdownTOC -->
 
 - [How to create routes and find issues using OTP](#how-to-create-routes-and-find-issues-using-otp) 
-	- [How to find GTFS stoplinker data issues](#how-to-find-GTFS-stoplinker-data-issues) 
+	- [How to find GTFS stoplinker data issues](#how-to-find-gtfs-stoplinker-data-issues)
 - [Different kinds of issues](#different-kinds-of-issues)
 - [Tips & Tricks](#tips--tricks)
 	- [OpenTripPlanner debugging](#opentripplanner-debugging)
