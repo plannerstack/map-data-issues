@@ -45,13 +45,13 @@ Now we know how to create a trip and how to recognize an issue. Lets see which o
 For all stop linker issues, check here: [Stop link issues](https://github.com/plannerstack/map-data-issues/issues?q=is%3Aissue+is%3Aopen+label%3A%22Stop+linkers%22)
 
 ##How to find GTFS stoplinker data issues
-1. download [GTFS data set](http://docs.plannerstack.org/en/latest/#getting-the-dutch-public-transport-schedules)
+1. Download [GTFS data set](http://docs.plannerstack.org/en/latest/#getting-the-dutch-public-transport-schedules)
 
 	![plannerstack data](https://cloud.githubusercontent.com/assets/15247075/12886444/7898e4fa-ce6d-11e5-9455-214f932582ef.png)
 
-2. unzip it 
+2. Unzip it 
 
-3. open stops.txt
+3. Open stops.txt
 
 4. Find station 
 
@@ -61,7 +61,7 @@ For all stop linker issues, check here: [Stop link issues](https://github.com/pl
 
 	![latlong](https://cloud.githubusercontent.com/assets/15247075/12886445/7c60fa6e-ce6d-11e5-890b-508cf6eb755e.png)
 
-6. paste it in google 
+6. Paste it in google 
 
 	![Almere Poort](https://cloud.githubusercontent.com/assets/15247075/12755550/308bda42-c9d0-11e5-8383-7ece155c3e9e.png)
 
