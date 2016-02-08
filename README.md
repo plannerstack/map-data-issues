@@ -50,7 +50,9 @@ For all stop linker issues, check here: [Stop link issues](https://github.com/pl
 2. unzip it 
 3. open stops.txt
 4. Find station 
+![schermafbeelding 2016-02-08 om 14 12 03](https://cloud.githubusercontent.com/assets/15247075/12886523/46125ba0-ce6e-11e5-9450-2f1af5668837.png)
 5. Find stations latitude longitude (latlong)
+![latlong](https://cloud.githubusercontent.com/assets/15247075/12886445/7c60fa6e-ce6d-11e5-890b-508cf6eb755e.png)
 6. paste it in google 
 ![Almere Poort](https://cloud.githubusercontent.com/assets/15247075/12755550/308bda42-c9d0-11e5-8383-7ece155c3e9e.png)
 When you have found some incorrect latlong's, paste them underneath the right issue. 
