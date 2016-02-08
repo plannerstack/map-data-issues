@@ -45,12 +45,13 @@ Now we know how to create a trip and how to recognize an issue. Lets see which o
 For all stop linker issues, check here: [Stop link issues](https://github.com/plannerstack/map-data-issues/issues?q=is%3Aissue+is%3Aopen+label%3A%22Stop+linkers%22)
 
 ##How to find GTFS stoplinker data issues
-1. download http://docs.plannerstack.org/en/latest/#getting-the-dutch-public-transport-schedules
+1. download [GTFS data set](http://docs.plannerstack.org/en/latest/#getting-the-dutch-public-transport-schedules)
 2. unzip it
 3. open stops.txt
-4. Find station with latitude longitude. latlong
-5. paste it in google
-6.
+4. Find station 
+5. Find stations latitude longitude (latlong)
+6. paste it in google
+When you have found some incorrect latlong's, paste them underneath the right issue. 
 
 # Different kinds of issues
 * [Missing intersections at Hilversum](#missing-intersections-at-hilversum)
