@@ -46,8 +46,8 @@ For all stop linker issues, check here: [Stop link issues](https://github.com/pl
 
 ##How to find GTFS stoplinker data issues
 1. download [GTFS data set](http://docs.plannerstack.org/en/latest/#getting-the-dutch-public-transport-schedules)
-![plannerstack data](https://files.slack.com/files-pri/T0762D7HQ-F0L2QJ8JZ/pasted_image_at_2016_02_02_02_54_pm.png)
-2. unzip it ![foto](file:///Users/jesse_harting/Downloads/Pasted%20image%20at%202016_02_02%2002_54%20PM.png)
+![plannerstack data](https://cloud.githubusercontent.com/assets/15247075/12886444/7898e4fa-ce6d-11e5-9455-214f932582ef.png)
+2. unzip it 
 3. open stops.txt
 4. Find station 
 5. Find stations latitude longitude (latlong)
