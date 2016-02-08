@@ -48,6 +48,7 @@ For all stop linker issues, check here: [Stop link issues](https://github.com/pl
 1. download [GTFS data set](http://docs.plannerstack.org/en/latest/#getting-the-dutch-public-transport-schedules)
 
 ![plannerstack data](https://cloud.githubusercontent.com/assets/15247075/12886444/7898e4fa-ce6d-11e5-9455-214f932582ef.png)
+
 2. unzip it 
 
 3. open stops.txt
