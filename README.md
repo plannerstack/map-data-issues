@@ -11,7 +11,8 @@ This repository is for the reporting of Map-data-issues regarding OSM & OTP. Tog
 
 <!-- MarkdownTOC -->
 
-- [How to create routes and find issues using OTP](#how-to-create-routes-and-find-issues-using-otp)  
+- [How to create routes and find issues using OTP](#how-to-create-routes-and-find-issues-using-otp) 
+	-[How to find GTFS stoplinker data issues](#how-to-find-GTFS-stoplinker-data-issues) 
 - [Different kinds of issues](#different-kinds-of-issues)
 - [Tips & Tricks](#tips--tricks)
 	- [OpenTripPlanner debugging](#opentripplanner-debugging)
@@ -41,6 +42,15 @@ Zoom in on one of the stations to have a better look. Most of the times nothing 
 The problem that occurred here is that the red line from the train probably has a stop link in the incorrect place. The suggestion already occurred when looking at the map, however a double check is done through Google Streetview. The result of this issue is an unnecessary 700-meter walk from an impossible place to leave the train and platform. In order to change this the stop link should be placed close to the train station where the platforms are. 
 
 Now we know how to create a trip and how to recognize an issue. Lets see which other issues can occur when creating train routes in OTP besides the station positioning issue that occurred at Almere Poort.
+For all stop linker issues, check here: [Stop link issues](https://github.com/plannerstack/map-data-issues/issues?q=is%3Aissue+is%3Aopen+label%3A%22Stop+linkers%22)
+
+##How to find GTFS stoplinker data issues
+1. download http://docs.plannerstack.org/en/latest/#getting-the-dutch-public-transport-schedules
+2. unzip it
+3. open stops.txt
+4. Find station with latitude longitude. latlong
+5. paste it in google
+6.
 
 # Different kinds of issues
 * [Missing intersections at Hilversum](#missing-intersections-at-hilversum)
